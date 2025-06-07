@@ -13,7 +13,6 @@ import {
   Book,
   UserPlus,
   MessageCircle,
-  Login
 } from 'lucide-react';
 
 const Home: React.FC = () => {
@@ -28,37 +27,37 @@ const Home: React.FC = () => {
       icon: <GraduationCap className="w-7 h-7 text-orange-600" />,
       title: "Career Guidance",
       description: "Expert guidance to help you make informed career decisions and plan your professional journey.",
-      link: "/services/career-guidance"
+      link: "/Login"
     },
     {
       icon: <FileEdit className="w-7 h-7 text-orange-600" />,
       title: "Resume Building",
       description: "Professional resume writing services to help you stand out in job applications.",
-      link: "/services/resume-building"
+      link: "/Login"
     },
     {
       icon: <Book className="w-7 h-7 text-orange-600" />,
       title: "Study Resources",
       description: "Access comprehensive study materials, tutorials, and practice resources.",
-      link: "/resources"
+      link: "/Login"
     },
     {
       icon: <UserPlus className="w-7 h-7 text-orange-600" />,
       title: "Mentorship",
       description: "Connect with experienced professionals for guidance and career advice.",
-      link: "/services/mentorship"
+      link: "/Login"
     },
     {
       icon: <Calendar className="w-7 h-7 text-orange-600" />,
       title: "Events & Workshops",
       description: "Participate in skill-building workshops and networking events.",
-      link: "/events"
+      link: "/Login"
     },
     {
       icon: <MessageCircle className="w-7 h-7 text-orange-600" />,
       title: "Community Support",
       description: "Join a supportive community of students and professionals.",
-      link: "/contact"
+      link: "/Login"
     }
   ];
 
