@@ -27,37 +27,37 @@ const Home: React.FC = () => {
       icon: <GraduationCap className="w-7 h-7 text-orange-600" />,
       title: "Career Guidance",
       description: "Expert guidance to help you make informed career decisions and plan your professional journey.",
-      link: "/Login"
+      link: "/services/career-guidance"
     },
     {
       icon: <FileEdit className="w-7 h-7 text-orange-600" />,
       title: "Resume Building",
       description: "Professional resume writing services to help you stand out in job applications.",
-      link: "/Login"
+      link: "/services/resume-building"
     },
     {
       icon: <Book className="w-7 h-7 text-orange-600" />,
       title: "Study Resources",
       description: "Access comprehensive study materials, tutorials, and practice resources.",
-      link: "/Login"
+      link: "/resources"
     },
     {
       icon: <UserPlus className="w-7 h-7 text-orange-600" />,
       title: "Mentorship",
       description: "Connect with experienced professionals for guidance and career advice.",
-      link: "/Login"
+      link: "/services/mentorship"
     },
     {
       icon: <Calendar className="w-7 h-7 text-orange-600" />,
       title: "Events & Workshops",
       description: "Participate in skill-building workshops and networking events.",
-      link: "/Login"
+      link: "/events"
     },
     {
       icon: <MessageCircle className="w-7 h-7 text-orange-600" />,
       title: "Community Support",
       description: "Join a supportive community of students and professionals.",
-      link: "/Login"
+      link: "/contact"
     }
   ];
 
